@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/************ article2 *************/
+.article2 .project {
+  height: 232rem;
+}
+
+.article2 .project .article2_project_menu p {
+  width: 15rem;
+}
+
+.article2 .project .design1,
+.article2 .project .design2,
+.article2 .project .design3,
+.article2 .project .design4,
+.article2 .project .design5,
+.article2 .project .design6 {
+  padding: 1.08rem 0.81rem;
+  margin-bottom: 2.5rem;
+  width: calc(52.1875rem - 1.62rem);
+  height: calc(74.363rem - 1.16rem);
+}
+
+/************ article2 design1 *************/
+.article2 .project .design1 .design1_img1 {
+  left: 1.3rem;
+}
+
+.article2 .project .design1 h4 {
+  font-size: 5.5rem;
+  margin: 22rem 0 1.81rem;
+}
+
+.article2 .project .design1 .view {
+  margin: 27rem 0 1.81rem
+}
+
+/************ article2 design2 *************/
+.article2 .project .design2 .design2_img {
+  width: 75%;
+  left: 7.3rem;
+}
+
+.article2 .project .design2 h4 {
+  font-size: 5.5rem;
+  margin: 25rem 0 1.81rem;
+}
+
+.article2 .project .design2 .view {
+  margin: 30rem 0 1.81rem;
+}
+
+/************ article2 design3 *************/
+
+.article2 .project .design3 .blank {
+  height: 43rem;
+}
+
+.article2 .project .design3 h4 {
+  font-size: 5.5rem;
+  margin-top: 2.5rem;
+}
+
+.article2 .project .design3 .view {
+  margin: 6rem 0 3rem;
+}
+
+/************ article2 design4 *************/
+.article2 .project .design4 .blank {
+  height: 30rem;
+}
+
+.article2 .project .design4 .design4_img {
+  width: 95%;
+  top: 4rem;
+  left: 1.5rem;
+}
+
+.article2 .project .design4 h4 {
+  font-size: 5.5rem;
+  margin: 17rem 0 0.5rem;
+}
+
+.article2 .project .design4 .view {
+  margin: 0;
+}
+
+/************ article2 design5 *************/
+.article2 .project .design5 .design5_img {
+  top: 4.5rem;
+  left: 2rem;
+}
+
+.article2 .project .design5 h4 {
+  font-size: 5.5rem;
+  margin: 21rem 0 1.81rem;
+}
+
+.article2 .project .design5 .view {
+  margin: 25.5rem 0 1.81rem;
+}
+
+/************ article2 design6 *************/
+.article2 .project .design6 .blank {
+  height: 32rem
+}
+
+.article2 .project .design6 h4 {
+  font-size: 5.5rem;
+  margin: 13rem 0 1.81rem;
+}
+
+/************ article4 *************/
+.article4 .article4_list .logo1 {
+  top: -10%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo2 {
+  top: -5%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo3 {
+  top: -3%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo4 {
+  top: 8%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo5 {
+  top: 15%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo6 {
+  top: 20%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo7 {
+  top: 25%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo8 {
+  top: 40%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo9 {
+  top: 48%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo10 {
+  top: 55%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo11 {
+  top: 55%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo12 {
+  top: 60%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo13 {
+  top: 65%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo14 {
+  top: 70%;
+  right: 13rem;
+}
+
+.article4 .article4_list .logo15 {
+  top: 70%;
+  right: 13rem;
+}
+
+footer .mail:hover span::after {
+  width: 18%;
+}
+
+footer .contact:hover+.mail span::after {
+  width: 18%;
+}
+
+footer .mono {
+  width: 90%;
+}
+
+footer .git_link {
+  width: 15%;
+  height: 50px;
+  line-height: 50px;
+}
