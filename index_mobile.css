@@ -142,10 +142,13 @@ header .pp {
 }
 
 .article2 .project {
-  height: 237rem;
   background-color: var(--main-color);
   margin-top: -1.45rem;
-  padding: 1.5rem 0.56rem 5.38rem;
+  padding: 6rem 4.5rem;
+}
+
+.article2 .project a {
+  text-decoration: none;
 }
 
 .article2 .project .article2_project_menu {
@@ -179,260 +182,320 @@ header .pp {
 
 /************ article2 design1 *************/
 .article2 .project .design1 {
-  width: 21.5625rem;
-  height: 37.1875rem;
-  background: #FFF;
-  padding: 0.44rem 0.31rem 2rem;
   position: relative;
+  z-index: 999;
 }
 
-.article2 .project .design1 .article2_project_menu .team {
-  opacity: 40%;
-}
-
-.article2 .project .design1 .blank {
-  width: 100%;
-  height: 12.57238rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
-}
-
-.article2 .project .design1 .design1_img1 {
-  width: 95%;
+.article2 .project .design1 .award {
   position: absolute;
-  top: 2.8rem;
-  left: 0.6rem;
+  width: 55%;
+  top: -11%;
+  left: -27%;
+  opacity: 60%;
+  z-index: -9;
 }
 
-.article2 .project .design1 h4 {
-  font-size: 2.27244rem;
-  margin: 9rem 0 1.81rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design1 .DIY_silicon {
+  width: 100%;
+  vertical-align: bottom;
 }
 
-.article2 .project .design1 .view {
-  font-size: 0.6875rem;
-  margin: 10.8rem 0 1.81rem;
+.article2 .project .design1 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
+}
+
+.article2 .project .design1 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design1 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design1 .explain .gray {
+  font-size: 13px;
+  color: #7C7C7C;
+}
+
+.article2 .project .design1 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 4.2rem;
 }
 
 /************ article2 design2 *************/
-.article2 .project .design2 {
-  width: 21.5625rem;
-  height: 39rem;
-  background: #FFF;
-  margin-top: 2rem;
-  padding: 0.44rem 0.31rem 1rem;
-  position: relative;
-  float: right;
-}
-
-.article2 .project .design2 .article2_project_menu .PUBLISHING,
-.article2 .project .design2 .article2_project_menu .Responsive {
-  opacity: 40%;
-}
-
-.article2 .project .design2 .blank {
+.article2 .project .design2 .No0 {
   width: 100%;
-  height: 12.57238rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
+  vertical-align: bottom;
 }
 
-.article2 .project .design2 .design2_img {
-  width: 90%;
-  position: absolute;
-  top: 2.8rem;
-  left: 1.4rem;
+.article2 .project .design2 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
 }
 
-.article2 .project .design2 h4 {
-  font-size: 2.27244rem;
-  margin: 14rem 0 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design2 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.article2 .project .design2 .view {
-  font-size: 0.6875rem;
-  margin: 15.5rem 0 1rem;
+.article2 .project .design2 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design2 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 4.2rem;
 }
 
 /************ article2 design3 *************/
-.article2 .project .design3 {
-  width: 21.5625rem;
-  height: 33.1875rem;
-  background: #FFF;
-  margin-top: 2rem;
-  padding: 0.44rem 0.31rem 1rem;
-  position: relative;
-  float: left;
-}
-
-.article2 .project .design3 .article2_project_menu .team {
-  opacity: 40%;
-}
-
-.article2 .project .design3 .blank {
+.article2 .project .design3 .tray {
   width: 100%;
-  height: 18.31144rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
-  background: url(./images/article2.gif) no-repeat 50% / cover;
+  vertical-align: bottom;
 }
 
-.article2 .project .design3 .design3_img {
-  width: 90%;
-  position: absolute;
-  top: 2.8rem;
-  left: 1.4rem;
+.article2 .project .design3 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
 }
 
-.article2 .project .design3 h4 {
-  font-size: 2.27244rem;
-  margin: 1.13rem 0 1.5rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design3 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.article2 .project .design3 .view {
-  font-size: 0.6875rem;
-  margin: 2.7rem 0 1.5rem;
+.article2 .project .design3 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design3 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
 }
 
 /************ article2 design4 *************/
 .article2 .project .design4 {
-  width: 21.5625rem;
-  height: 37.1875rem;
-  background: #FFF;
-  margin-top: 2rem;
-  padding: 0.44rem 0.31rem 2rem;
   position: relative;
-  float: right;
+  z-index: 999;
 }
 
-.article2 .project .design4 .article2_project_menu .Responsive {
-  opacity: 40%;
-}
-
-.article2 .project .design4 .blank {
-  width: 100%;
-  height: 12.57238rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
-}
-
-.article2 .project .design4 .design4_img {
-  width: 90%;
+.article2 .project .design4 .award {
   position: absolute;
-  top: 2.8rem;
-  left: 1.4rem;
+  width: 55%;
+  top: -11%;
+  left: -27%;
+  opacity: 60%;
+  z-index: -9;
 }
 
-.article2 .project .design4 h4 {
-  font-size: 2.27244rem;
-  margin: 7rem 0 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design4 .UV {
+  width: 100%;
+  vertical-align: bottom;
 }
 
-.article2 .project .design4 .view {
-  font-size: 0.6875rem;
-  margin-bottom: 1.75rem;
-  float: right;
+.article2 .project .design4 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
 }
 
-.article2 .project .design4 .tittle {
-  float: left;
+.article2 .project .design4 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design4 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design4 .explain .gray {
+  font-size: 13px;
+  color: #7C7C7C;
+}
+
+.article2 .project .design4 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 4.2rem;
 }
 
 /************ article2 design5 *************/
-.article2 .project .design5 {
-  width: 21.5625rem;
-  height: 35.1875rem;
-  background: #FFF;
-  margin-top: 2rem;
-  padding: 0.44rem 0.31rem 1rem;
-  position: relative;
-  float: left;
-}
-
-.article2 .project .design5 .article2_project_menu .team,
-.article2 .project .design5 .article2_project_menu .Responsive {
-  opacity: 40%;
-}
-
-.article2 .project .design5 .blank {
+.article2 .project .design5 .Lm {
   width: 100%;
-  height: 12.57238rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
+  vertical-align: bottom;
 }
 
-.article2 .project .design5 .design5_img {
-  width: 90%;
-  position: absolute;
-  top: 2.8rem;
-  left: 1.15rem;
+.article2 .project .design5 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
 }
 
-.article2 .project .design5 h4 {
-  font-size: 2.27244rem;
-  margin: 9.18rem 0 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design5 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.article2 .project .design5 .view {
-  font-size: 0.6875rem;
-  margin: 10.7rem 0 1rem;
+.article2 .project .design5 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design5 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
 }
 
 /************ article2 design6 *************/
-.article2 .project .design6 {
-  width: 21.5625rem;
-  height: 36.1875rem;
-  background: #FFF;
-  margin-top: 2rem;
-  padding: 0.44rem 0.31rem 0;
-  position: relative;
-  float: right;
-}
-
-.article2 .project .design6 .article2_project_menu .team,
-.article2 .project .design6 .article2_project_menu .Responsive {
-  opacity: 40%;
-}
-
-.article2 .project .design6 .blank {
+.article2 .project .design6 .Manager {
   width: 100%;
-  height: 12.57238rem;
-  border: 1px solid #000;
-  margin: 0.87rem 0 0 0;
+  vertical-align: bottom;
 }
 
-.article2 .project .design6 .design6_img {
-  width: 90%;
-  position: absolute;
-  top: 2.8rem;
-  left: 1.2rem;
+.article2 .project .design6 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
 }
 
-.article2 .project .design6 h4 {
-  font-size: 2.27244rem;
-  margin: 6.49rem 0 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.article2 .project .design6 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.article2 .project .design6 .view {
-  font-size: 0.6875rem;
-  margin-bottom: 2rem;
-  float: right;
+.article2 .project .design6 .explain p {
+  font-size: 13px;
 }
 
-.article2 .project .design6 .tittle {
-  float: left;
+.article2 .project .design6 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
+}
+
+/************ article2 design7 *************/
+.article2 .project .design7 .bee {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.article2 .project .design7 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
+}
+
+.article2 .project .design7 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design7 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design7 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
+}
+
+/************ article2 design8 *************/
+.article2 .project .design8 .Care {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.article2 .project .design8 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
+}
+
+.article2 .project .design8 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design8 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design8 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
+}
+
+/************ article2 design9 *************/
+.article2 .project .design9 .Harmony {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.article2 .project .design9 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
+}
+
+.article2 .project .design9 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design9 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design9 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 6rem;
+}
+
+/************ article2 design10 *************/
+.article2 .project .design10 .DEPLANT {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.article2 .project .design10 .explain {
+  height: 100%;
+  background-color: #F5F5F3;
+  padding: 1.7rem 0.8rem;
+}
+
+.article2 .project .design10 .explain h5 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.article2 .project .design10 .explain p {
+  font-size: 13px;
+}
+
+.article2 .project .design10 .VeiwMore {
+  font-size: 13px;
+  color: #F5F5F3;
+  text-align: center;
+  margin: 5px auto 0;
 }
 
 /************ article3 *************/
@@ -454,7 +517,7 @@ header .pp {
 
 .article3 p {
   width: 100%;
-  height: 8rem;
+  height: 9.5rem;
   word-wrap: break-word;
   font-size: 1rem;
   margin: 1.25rem 0 1.27rem;
@@ -500,10 +563,6 @@ header .pp {
   margin-top: -0.5rem;
 }
 
-.article4 .article4_pc {
-  display: none;
-}
-
 .article4 .article4_mobile {
   width: 100%;
   margin: -1rem auto 0;
@@ -540,58 +599,30 @@ header .pp {
   vertical-align: middle;
 }
 
-.article4 .article4_mobile .html,
-.article4 .article4_mobile .Script,
-.article4 .article4_mobile .git,
 .article4 .article4_mobile .TOOL {
   grid-column: 1/3;
 }
 
-
-.article4 .article4_mobile .html1,
-.article4 .article4_mobile .html2,
-.article4 .article4_mobile .Script1,
-.article4 .article4_mobile .Script2,
-.article4 .article4_mobile .git1,
-.article4 .article4_mobile .git2,
 .article4 .article4_mobile .TOOL1,
 .article4 .article4_mobile .TOOL2,
 .article4 .article4_mobile .TOOL3,
 .article4 .article4_mobile .TOOL4,
 .article4 .article4_mobile .TOOL5,
-.article4 .article4_mobile .TOOL6 {
+.article4 .article4_mobile .TOOL6,
+.article4 .article4_mobile .TOOL7,
+.article4 .article4_mobile .TOOL8 {
   border-bottom: 1px solid #000;
 }
 
-.article4 .article4_mobile .html1,
-.article4 .article4_mobile .html3,
-.article4 .article4_mobile .Script1,
-.article4 .article4_mobile .Script3,
-.article4 .article4_mobile .git1,
-.article4 .article4_mobile .git3,
 .article4 .article4_mobile .TOOL1,
 .article4 .article4_mobile .TOOL3,
-.article4 .article4_mobile .TOOL5 {
+.article4 .article4_mobile .TOOL5,
+.article4 .article4_mobile .TOOL7 {
   border-right: 1px solid #000;
 }
 
-.article4 .article4_mobile .html2 p,
-.article4 .article4_mobile .Script1 p,
-.article4 .article4_mobile .Script4 p,
-.article4 .article4_mobile .git1 p,
-.article4 .article4_mobile .git2 p,
-.article4 .article4_mobile .TOOL1 p,
-.article4 .article4_mobile .TOOL2 p,
-.article4 .article4_mobile .TOOL3 p,
-.article4 .article4_mobile .TOOL4 p,
-.article4 .article4_mobile .TOOL5 p {
+.article4 .article4_mobile p {
   line-height: 26px;
-}
-
-.article4 .article4_mobile .Script,
-.article4 .article4_mobile .git,
-.article4 .article4_mobile .TOOL {
-  border-top: 1px solid #000;
 }
 
 /************ footer *************/
