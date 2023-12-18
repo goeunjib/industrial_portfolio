@@ -26,7 +26,7 @@
   <!-- style css -->
   <link rel="stylesheet" href="./index_mobile.css">
   <link rel="stylesheet" href="./index_tablet.css" media="screen and (min-width: 820px)">
-  <link rel="stylesheet" href="./index_pc.css" media="screen and (min-width: 1440px)">
+  <link rel="stylesheet" href="./index_pc.css" media="screen and (min-width: 1180px)">
   <link rel="stylesheet" href="./index_pc_lar.css" media="screen and (min-width: 1910px)">
 
   <title>potfolio</title>
@@ -34,18 +34,20 @@
 
 <body>
   <header id="home">
-    <div class="header_menu flex mono">
-      <p class="name">eunji go</p>
-      <p class="major">the Department of Industrial Design</p>
-      <div class="header_mail">
-        <p>available now</p>
-        <p>goeunji0948@naver.com</p>
-      </div>
-      <div class="move flex">
-        <p><a href="#home" class="button">home</a></p>
-        <p><a href="#work" class="button">work</a></p>
-        <p><a href="#about" class="button">about</a></p>
-        <p><a href="#contact" class="button">contact</a></p>
+    <div class="header_position">
+      <div class="header_menu flex mono">
+        <p class="name">eunji go</p>
+        <p class="major">the Department of Industrial Design</p>
+        <div class="header_mail">
+          <p>available now</p>
+          <p>goeunji0948@naver.com</p>
+        </div>
+        <div class="move flex">
+          <p><a href="#home" class="button">home</a></p>
+          <p><a href="#work" class="button">work</a></p>
+          <p><a href="#about" class="button">about</a></p>
+          <p><a href="#contact" class="button">contact</a></p>
+        </div>
       </div>
     </div>
     <h1>industrial</h1>
@@ -75,7 +77,6 @@
       </p>
     </div>
     <p class="position2 ko">끈질기게 프로젝트가 끝날때 까지 열심히 하겠습니다.</p>
-    <div></div>
     <h3>recent</h3>
     <h3 class="pp" id="work">work</h3>
     <div class="project">
@@ -83,12 +84,15 @@
         <div class="design1">
           <img src="./images/article2_desien1.jpg" alt="DIY_silicon" class="DIY_silicon">
           <div class="explain ko">
-            <h5>D.I.Y Silicon glasses</h5><br>
+            <div class="flex">
+              <h5>D.I.Y Silicon glasses</h5>
+              <img src="./images/award_blakc.png" alt="award.png" class="award" style="width: 20%">
+            </div>
+            <br>
             <p>단순한 조립으로 제 3세계 아이들에게 편리함을 전달합니다. <br>모두를 위한 선글라스 입니다.</p> <br>
-            <p class="gray">K-아이웨어 디자인어워_특선 <br>대한민국 디자인 전람회_입선</p>
+            <p class=" gray">K-아이웨어 디자인어워_특선 <br>대한민국 디자인 전람회_입선</p>
           </div>
           <p class="VeiwMore ko">+ veiw more</p>
-          <img src="./images/award.png" alt="award.png" class="award">
         </div>
       </a>
 
@@ -97,7 +101,11 @@
           <img src="images/article2_desien2.jpg" alt="No.0 In spatially" class="No0">
           <div class="explain ko">
             <h5>No.0 In spatially</h5><br>
-            <p>공용 오피스를 대상으로 사용할 기능성 파티션입니다.</p>
+            <p>공용 오피스를 대상으로 사용할 기능성 파티션입니다. <br>
+              <span class="pcAdd">
+                접고 펴기 가능해 수납기 용이하며 공용 오피스의 환경을 고려해 <br> 이동이 가능합니다.
+              </span>
+            </p>
           </div>
           <p class="VeiwMore ko">+ veiw more</p>
         </div>
@@ -118,12 +126,15 @@
         <div class="design4">
           <img src="images/article2_desien4.jpg" alt="UV Tap." class="UV">
           <div class="explain ko">
-            <h5>UV Tap.</h5> <br>
+            <div class="flex">
+              <h5>UV Tap.</h5>
+              <img src="./images/award_blakc.png" alt="award.png" class="award" style="width: 20%">
+            </div>
+            <br>
             <p>유행형 질병으로 부터 개인의 위생관리를 유도하는 수도꼭지입니다.</p> <br>
-            <p class="gray">2020 핀업 컨셉 디자인 어워드_입선선</p>
+            <p class="gray">2020 핀업 컨셉 디자인 어워드_입선</p>
           </div>
           <p class="VeiwMore ko">+ veiw more</p>
-          <img src="./images/award.png" alt="award.png" class="award">
         </div>
       </a>
 
@@ -154,7 +165,9 @@
           <img src="./images/article2_desien7.jpg" alt="Beeverge" class="bee">
           <div class="explain ko">
             <h5>Beeverge</h5> <br>
-            <p>벌집에 대한 인식을 일상화 시키고 꿀의 영양분을 제 3세계 국가내내 개인이 사용할 수 있게 해 영양분을 얻습니다.</p>
+            <p>벌집에 대한 인식을 일상화 시키고 꿀의 영양분을 제 3세계 국가내 개인이 사용할 수 있게 해 영양분을 얻습니다. <br><span class="pcAdd">
+                사회적 문제가 되어버린 꿀벌집의 디자인적 재해석입니다.
+              </span></p>
           </div>
           <p class="VeiwMore ko">+ veiw more</p>
         </div>
@@ -240,65 +253,60 @@
         <img src="./images/Illustrator_Mlogo.png" alt="Illustrator_logo mobile ver." class="mobile_img">
         <p>ILLUSTRATOR</p>
       </div>
-      <div class="TOOL8"></div>
     </div>
-    <!-- <div class="article4_pc">
+    <div class="article4_pc">
       <div class="article4_list mono">
-        <h5>HTML5 & CSS3</h5>
+        <h5>TOOL</h5>
         <div class="flex">
-          <p class="first"><span class="ko">웹 표준과 접근성을 고려한 시멘틱 마크업</span></p>
+          <p class="first">RHINO</p>
+          <p class="rate">design</p>
+          <p class="view">used program:</p>
+          <p class="link">3D</p>
+        </div>
+        <img src="./images/Rhino_logo.jpg" alt="Rhino_logo" class="logo1">
+        <div class="flex">
+          <p class="first">KEYSHOT</p>
+          <p class="rate">design</p>
+          <p class="view">used program:</p>
+          <p class="link">render</p>
+        </div>
+        <img src="./images/keyshot_logo.jpg" alt="keyshot_logo" class="logo2">
+        <div class="flex">
+          <p class="first">UI <span class="ko">디자인</span></p>
+          <p class="rate">design</p>
+          <p class="view">used program:</p>
+          <p class="link">ui</p>
+        </div>
+        <img src="./images/UI_logo.jpg" alt="UI_logo" class="logo3">
+        <div class="flex">
+          <p class="first">VSCODE</p>
           <p class="rate">web publishing</p>
           <p class="view">used program:</p>
-          <p class="link">html</p>
+          <p class="link">vscode</p>
         </div>
-        <img src="./images/HTML5_logo.jpg" alt="HTML5_logo" class="logo1">
+        <img src="./images/VSCODE_logo.jpg" alt="VSCODE_logo" class="logo4">
         <div class="flex">
-          <p class="first ko">미디어쿼리를 이용한 반응형 웹</p>
-          <p class="rate">web publishing</p>
+          <p class="first">FIGMA - <span class="ko">프로토타입 제작</span></p>
+          <p class="rate">design</p>
           <p class="view">used program:</p>
-          <p class="link">html</p>
+          <p class="link">figma</p>
         </div>
-        <img src="./images/HTML5_logo.jpg" alt="HTML5_logo" class="logo2">
+        <img src="./images/FIGMA_logo.jpg" alt="FIGMA_logo" class="logo5">
         <div class="flex">
-          <p class="first">CSS Animation<span class="ko">을 이용한 이벤트 제작</span></p>
-          <p class="rate">web publishing</p>
+          <p class="first">PHOTOSHOP</p>
+          <p class="rate">design</p>
           <p class="view">used program:</p>
-          <p class="link">css</p>
+          <p class="link">photo</p>
         </div>
-        <img src="./images/CSS3_logo.jpg" alt="CSS3_logo" class="logo3">
-        <h5>JAVASCRIPT & JQUERY</h5>
+        <img src="./images/Photoshop_logo.jpg" alt="Photoshop_logo" class="logo6">
         <div class="flex">
-          <p class="first">ES6+ <span class="ko">문법</span> </p>
-          <p class="rate">web publishing</p>
+          <p class="first">ILLUSTRATOR</p>
+          <p class="rate">design</p>
           <p class="view">used program:</p>
-          <p class="link">js</p>
+          <p class="link">illust</p>
         </div>
-        <img src="./images/JavaScript_logo.jpg" alt="JavaScript_logo" class="logo4">
-        <div class="flex">
-          <p class="first"><span class="ko">비동기 통신</span> AJAX<span class="ko">활용:</span> $.Ajax(), fetch <span
-              class="ko">
-              이용하여 </span>
-            </span></span>webAPI<span class="ko"> 사용</span></p>
-          <p class="rate">web publishing</p>
-          <p class="view">used program:</p>
-          <p class="link">ajax</p>
-        </div>
-        <img src="./images/AJAX_logo.jpg" alt="JavaScript_logo" class="logo5">
-        <div class="flex">
-          <p class="first"><span class="ko">비동기 함수</span> SetTimeout(), SetInterval() <span class="ko">사용</span></p>
-          <p class="rate">web publishing</p>
-          <p class="view">used program:</p>
-          <p class="link">js</p>
-        </div>
-        <img src="./images/JavaScript_logo.jpg" alt="JavaScript_logo" class="logo6">
-        <div class="flex">
-          <p class="first">jQuery<span class="ko">를 이용한 이벤트 제어</span></p>
-          <p class="rate">web publishing</p>
-          <p class="view">used program:</p>
-          <p class="link">JQUERY</p>
-        </div>
-        <img src="./images/jQuery_logo.jpg" alt="jQuery_logo" class="logo7">
-        <h5>GIT & GITHUB</h5>
+        <img src="./images/Illustrator_logo.jpg" alt="Illustrator_logo" class="logo7">
+        <h5 class="h5git">GIT & GITHUB</h5>
         <div class="flex">
           <p class="first">CLI<span class="ko">를 이용한 </span>git bash<span class="ko">사용</span></p>
           <p class="rate">web publishing</p>
@@ -320,44 +328,8 @@
           <p class="link">github</p>
         </div>
         <img src="./images/github_logo.jpg" alt="API_logo2" class="logo10">
-        <h5>TOOL</h5>
-        <div class="flex">
-          <p class="first">UI <span class="ko">디자인</span></p>
-          <p class="rate">design</p>
-          <p class="view">used program:</p>
-          <p class="link">ui</p>
-        </div>
-        <img src="./images/UI_logo.jpg" alt="UI_logo" class="logo11">
-        <div class="flex">
-          <p class="first">VSCODE</p>
-          <p class="rate">web publishing</p>
-          <p class="view">used program:</p>
-          <p class="link">vscode</p>
-        </div>
-        <img src="./images/VSCODE_logo.jpg" alt="VSCODE_logo" class="logo12">
-        <div class="flex">
-          <p class="first">FIGMA - <span class="ko">프로토타입 제작</span></p>
-          <p class="rate">design</p>
-          <p class="view">used program:</p>
-          <p class="link">figma</p>
-        </div>
-        <img src="./images/FIGMA_logo.jpg" alt="FIGMA_logo" class="logo13">
-        <div class="flex">
-          <p class="first">PHOTOSHOP</p>
-          <p class="rate">design</p>
-          <p class="view">used program:</p>
-          <p class="link">photo</p>
-        </div>
-        <img src="./images/Photoshop_logo.jpg" alt="Photoshop_logo" class="logo14">
-        <div class="flex">
-          <p class="first">ILLUSTRATOR</p>
-          <p class="rate">design</p>
-          <p class="view">used program:</p>
-          <p class="link">illust</p>
-        </div>
-        <img src="./images/Illustrator_logo.jpg" alt="Illustrator_logo" class="logo15">
       </div>
-    </div> -->
+    </div>
   </article>
 
   <footer id="contact">
@@ -365,7 +337,8 @@
     <h3 class="pp">a project</h3>
     <p class="contact">contact me</p>
     <p class="mail"><span>goeunji0948@naver.com</span></p>
-    <p class="git_link"><a href="https://github.com/goeunjib">Eunji Github 바로가기</a></p>
+    <p class="git_link"><a href="mailto:goeunji0948@naver.com">
+        &#9993; Send Mail &rarr;</a></p>
     <p class="mono">2020_Department of Industrial Design Club Vice President / 2021_ Startup of Goods Design
       Funding_tumblbug / 2021_Industrial Design Department Student President /
       2022_Amateur oil painting exhibition / 2022_26th Hyeopseong University Industrial Design Department Graduation

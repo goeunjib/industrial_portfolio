@@ -176,23 +176,9 @@ header .pp {
   justify-content: space-between;
 }
 
-.article2 .project .tittle {
-  font-size: 0.6875rem;
-}
-
 /************ article2 design1 *************/
-.article2 .project .design1 {
-  position: relative;
-  z-index: 999;
-}
-
 .article2 .project .design1 .award {
-  position: absolute;
-  width: 55%;
-  top: -11%;
-  left: -27%;
   opacity: 60%;
-  z-index: -9;
 }
 
 .article2 .project .design1 .DIY_silicon {
@@ -206,13 +192,20 @@ header .pp {
   padding: 1.7rem 0.8rem;
 }
 
+.article2 .project .design1 .explain .flex {
+  justify-content: flex-start;
+}
+
 .article2 .project .design1 .explain h5 {
   font-weight: 400;
   font-size: 15px;
+  margin: 10px 10px 10px 0;
 }
 
 .article2 .project .design1 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .article2 .project .design1 .explain .gray {
@@ -246,6 +239,12 @@ header .pp {
 
 .article2 .project .design2 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.article2 .project .design2 .explain p .pcAdd {
+  display: none;
 }
 
 .article2 .project .design2 .VeiwMore {
@@ -274,6 +273,8 @@ header .pp {
 
 .article2 .project .design3 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .article2 .project .design3 .VeiwMore {
@@ -284,18 +285,8 @@ header .pp {
 }
 
 /************ article2 design4 *************/
-.article2 .project .design4 {
-  position: relative;
-  z-index: 999;
-}
-
 .article2 .project .design4 .award {
-  position: absolute;
-  width: 55%;
-  top: -11%;
-  left: -27%;
   opacity: 60%;
-  z-index: -9;
 }
 
 .article2 .project .design4 .UV {
@@ -309,13 +300,20 @@ header .pp {
   padding: 1.7rem 0.8rem;
 }
 
+.article2 .project .design4 .explain .flex {
+  justify-content: flex-start;
+}
+
 .article2 .project .design4 .explain h5 {
   font-weight: 400;
   font-size: 15px;
+  margin: 10px 10px 10px 0;
 }
 
 .article2 .project .design4 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .article2 .project .design4 .explain .gray {
@@ -349,6 +347,8 @@ header .pp {
 
 .article2 .project .design5 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .article2 .project .design5 .VeiwMore {
@@ -377,6 +377,8 @@ header .pp {
 
 .article2 .project .design6 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .article2 .project .design6 .VeiwMore {
@@ -405,6 +407,12 @@ header .pp {
 
 .article2 .project .design7 .explain p {
   font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.article2 .project .design7 .explain p .pcAdd {
+  display: none;
 }
 
 .article2 .project .design7 .VeiwMore {
@@ -563,6 +571,10 @@ header .pp {
   margin-top: -0.5rem;
 }
 
+.article4 .article4_pc {
+  display: none;
+}
+
 .article4 .article4_mobile {
   width: 100%;
   margin: -1rem auto 0;
@@ -583,7 +595,7 @@ header .pp {
 }
 
 .article4 .article4_mobile p {
-  height: 40px;
+  height: 22px;
   font-size: 11px;
   padding: 10px 10px 10px;
   border-top: 1px solid #000;

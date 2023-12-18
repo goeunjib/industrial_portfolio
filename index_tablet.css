@@ -29,8 +29,9 @@ header .pp {
 }
 
 header .position {
+  width: 30%;
   margin: 0 10px 0 auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /************ article1 *************/
@@ -64,13 +65,13 @@ header .position {
 .article2 .position1 .tablet {
   display: block;
   width: 17.86669rem;
-  font-size: 15px;
-  margin: 3rem 13.3rem 1rem;
+  font-size: 16px;
+  margin: 3rem 8rem 1rem;
 }
 
 .article2 .position2 {
   width: 14rem;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .article2 h3 {
@@ -82,9 +83,9 @@ header .position {
 }
 
 .article2 .project {
-  height: 350rem;
+  height: 100%;
   margin-top: -2.8rem;
-  padding: 6rem 1rem 6rem;
+  padding: 6rem 11rem 6rem;
 }
 
 .article2 .project .article2_project_menu {
@@ -99,8 +100,202 @@ header .position {
   line-height: 1.5rem;
 }
 
-.article2 .project .tittle {
-  font-size: 1rem;
+/************ article2 design1 *************/
+.article2 .project .design1 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design1 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design1 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design1 .explain .gray {
+  font-size: 1.1rem;
+}
+
+.article2 .project .design1 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design2 *************/
+.article2 .project .design2 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design2 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design2 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design2 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design3 *************/
+.article2 .project .design3 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design3 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design3 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design3 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design4 *************/
+.article2 .project .design4 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design4 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design4 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design4 .explain .gray {
+  font-size: 1.1rem;
+}
+
+.article2 .project .design4 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design5 *************/
+.article2 .project .design5 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design5 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design5 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design5 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design6 *************/
+.article2 .project .design6 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design6 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design6 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design6 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design7 *************/
+.article2 .project .design7 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design7 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design7 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design7 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design8 *************/
+.article2 .project .design8 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design8 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design8 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design8 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design9 *************/
+.article2 .project .design9 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design9 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design9 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design9 .VeiwMore {
+  font-size: 1.4rem;
+}
+
+/************ article2 design10 *************/
+.article2 .project .design10 .explain {
+  padding: 1.5rem 2rem 2rem;
+}
+
+.article2 .project .design10 .explain h5 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.article2 .project .design10 .explain p {
+  font-size: 1.08rem;
+  line-height: 24px;
+}
+
+.article2 .project .design10 .VeiwMore {
+  font-size: 1.4rem;
 }
 
 
@@ -144,6 +339,10 @@ header .position {
   grid-template-rows: 1fr;
 }
 
+.article4 .article4_mobile .TOOL {
+  grid-column: 1/4;
+}
+
 .article4 .article4_mobile h5 {
   font-size: 2.5rem;
   margin-top: 3rem;
@@ -151,6 +350,7 @@ header .position {
 
 .article4 .article4_mobile p {
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .article4 .article4_mobile img {
@@ -158,79 +358,13 @@ header .position {
   margin: 20px;
 }
 
-.article4 .article4_mobile .html,
-.article4 .article4_mobile .Script,
-.article4 .article4_mobile .git,
-.article4 .article4_mobile .TOOL {
-  grid-column: 1/4;
-}
-
-.article4 .article4_mobile .html1,
-.article4 .article4_mobile .html2,
-.article4 .article4_mobile .Script2,
-.article4 .article4_mobile .Script3,
-.article4 .article4_mobile .Script4,
-.article4 .article4_mobile .git1,
-.article4 .article4_mobile .git2,
-.article4 .article4_mobile .TOOL4,
-.article4 .article4_mobile .TOOL5 {
-  border-bottom: none;
-  border-right: 1px solid #000;
-}
-
-.article4 .article4_mobile .html3,
-.article4 .article4_mobile .Script3,
-.article4 .article4_mobile .git3,
-.article4 .article4_mobile .TOOL3 {
-  border-right: none;
-}
-
-.article4 .article4_mobile .Script,
-.article4 .article4_mobile .git,
-.article4 .article4_mobile .TOOL {
-  border-top: none;
-}
-
-.article4 .article4_mobile .Script1,
-.article4 .article4_mobile .Script2,
-.article4 .article4_mobile .Script3 {
-  border-bottom: 1px solid #000;
-}
-
-.article4 .article4_mobile .Script1 p,
-.article4 .article4_mobile .Script2 p,
-.article4 .article4_mobile .Script3 p,
-.article4 .article4_mobile .Script4 p {
-  height: 60px;
-}
-
 .article4 .article4_mobile .TOOL2,
 .article4 .article4_mobile .TOOL4 {
   border-right: 1px solid #000;
 }
 
-.article4 .article4_mobile .TOOL6 {
-  border-bottom: none;
-}
-
-.article4 .article4_mobile .html2 p,
-.article4 .article4_mobile .git1 p,
-.article4 .article4_mobile .git2 p,
-.article4 .article4_mobile .TOOL1 p,
-.article4 .article4_mobile .TOOL2 p,
-.article4 .article4_mobile .TOOL3 p,
-.article4 .article4_mobile .TOOL4 p,
-.article4 .article4_mobile .TOOL5 p,
-.article4 .article4_mobile .Script4 p {
-  line-height: 40px;
-}
-
-.article4 .article4_mobile .Script1 p {
-  line-height: 60px;
-}
-
-.article4 .article4_mobile .Script3 p {
-  padding: 25px 10px 10px 10px;
+.article4 .article4_mobile .TOOL3 {
+  border-right: none;
 }
 
 /************ footer *************/

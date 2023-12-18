@@ -1,105 +1,236 @@
 @charset "UTF-8";
 
 /************ article2 *************/
+.article2 .position1 .tablet {
+  width: 35%;
+}
+
+.article2 .position2 {
+  width: 95%;
+}
+
 .article2 .project {
-  height: 232rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1195px 1377px 830px 1008px 1349px;
+  gap: 4rem;
 }
 
-.article2 .project .article2_project_menu p {
-  width: 15rem;
+.article2 .project a:hover {
+  text-decoration: none;
 }
 
-.article2 .project .design1,
-.article2 .project .design2,
-.article2 .project .design3,
-.article2 .project .design4,
-.article2 .project .design5,
-.article2 .project .design6 {
-  padding: 1.08rem 0.81rem;
-  margin-bottom: 2.5rem;
-  width: calc(52.1875rem - 1.62rem);
-  height: calc(74.363rem - 1.16rem);
+.article2 .project .design1:hover .VeiwMore,
+.article2 .project .design2:hover .VeiwMore,
+.article2 .project .design3:hover .VeiwMore,
+.article2 .project .design4:hover .VeiwMore,
+.article2 .project .design5:hover .VeiwMore,
+.article2 .project .design6:hover .VeiwMore,
+.article2 .project .design7:hover .VeiwMore,
+.article2 .project .design8:hover .VeiwMore,
+.article2 .project .design9:hover .VeiwMore,
+.article2 .project .design10:hover .VeiwMore {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-/************ article2 design1 *************/
+/************* .article2 .project .design1 *************/
+.article2 .project .design1 .explain {
+  height: calc(190px + 6rem);
+}
+
+/************* .article2 .project .design2 *************/
+.article2 .project .design2 .explain {
+  height: calc(190px + 6rem);
+}
+
+.article2 .project .design2 .explain h5 {
+  margin: 2rem 0;
+}
+
+.article2 .project .design2 .explain p {
+  line-height: 35px;
+}
+
+.article2 .project .design2 .explain p .pcAdd {
+  display: block;
+}
+
+/************* .article2 .project .design3 *************/
+.article2 .project .design3 .explain {
+  height: calc(86px + 6rem);
+}
+
+/************* .article2 .project .design4 *************/
+.article2 .project .design4 .explain {
+  height: calc(160px + 6rem);
+}
+
+/************* .article2 .project .design6 *************/
+.article2 .project .design6 .explain {
+  height: calc(110px + 6rem);
+}
+
+/************* .article2 .project .design7 *************/
+.article2 .project .design7 .explain {
+  height: calc(213px + 6rem);
+}
+
+.article2 .project .design7 .explain h5 {
+  margin: 2rem 1rem 3rem 0;
+}
+
+.article2 .project .design7 .explain p {
+  line-height: 40px;
+}
+
+.article2 .project .design7 .explain p .pcAdd {
+  display: block;
+}
 
 
 /************ article4 *************/
-.article4 .article4_list .logo1 {
+.article4 .article4_mobile {
+  display: none;
+}
+
+.article4 .article4_pc {
+  display: block;
+}
+
+.article4 h3 {
+  font-size: 10rem;
+}
+
+.article4 h3:nth-child(2) {
+  font-size: 7.5rem;
+  margin-top: -2rem;
+}
+
+.article4 .article4_mobile {
+  display: none;
+}
+
+.article4 .article4_pc {
+  display: block;
+}
+
+.article4 .article4_list {
+  width: calc(100% - 4rem);
+  margin: 0 2rem;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.article4 .article4_list .ko {
+  font-weight: normal;
+}
+
+.article4 .article4_list .flex {
+  border-bottom: 1px solid black;
+}
+
+.article4 .article4_list h5 {
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.article4 .article4_list .h5git {
+  margin-top: 2rem;
+}
+
+.article4 .article4_list .flex p {
+  padding: 0.3rem 0;
+}
+
+.article4 .article4_list .first {
+  width: 48%;
+  text-transform: none;
+}
+
+.article4 .article4_list .rate {
+  width: 15%;
+}
+
+.article4 .article4_list .view {
+  width: 30%;
+}
+
+.article4 .article4_list .link {
+  width: 7%;
+}
+
+.article4 .article4_list img {
+  width: 15%;
+  transform: translateY(-10%);
+  transition: 0.5s;
+  position: absolute;
+  right: 15%;
+  opacity: 0;
+}
+
+
+.article4 .article4_pc .article4_list .logo1 {
   top: -10%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo2 {
+.article4 .article4_pc .article4_list .logo2 {
   top: -5%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo3 {
+.article4 .article4_pc .article4_list .logo3 {
   top: -3%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo4 {
+.article4 .article4_pc .article4_list .logo4 {
   top: 8%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo5 {
+.article4 .article4_pc .article4_list .logo5 {
   top: 15%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo6 {
+.article4 .article4_pc .article4_list .logo6 {
   top: 20%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo7 {
+.article4 .article4_pc .article4_list .logo7 {
   top: 25%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo8 {
-  top: 40%;
-  right: 13rem;
-}
-
-.article4 .article4_list .logo9 {
+.article4 .article4_pc .article4_list .logo8 {
   top: 48%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo10 {
+.article4 .article4_pc .article4_list .logo9 {
+  top: 51%;
+  right: 13rem;
+}
+
+.article4 .article4_pc .article4_list .logo10 {
   top: 55%;
   right: 13rem;
 }
 
-.article4 .article4_list .logo11 {
-  top: 55%;
-  right: 13rem;
+.article4 .article4_list .flex:hover {
+  background-color: #ddd;
 }
 
-.article4 .article4_list .logo12 {
-  top: 60%;
-  right: 13rem;
+.article4 .article4_list .flex:hover+img {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.article4 .article4_list .logo13 {
-  top: 65%;
-  right: 13rem;
-}
-
-.article4 .article4_list .logo14 {
-  top: 70%;
-  right: 13rem;
-}
-
-.article4 .article4_list .logo15 {
-  top: 70%;
-  right: 13rem;
-}
-
+/************ footer *************/
 footer .mail:hover span::after {
   width: 18%;
 }
