@@ -114,6 +114,10 @@ header .pp {
   word-break: keep-all;
 }
 
+.lb-data .lb-caption {
+  font-family: "Pretendard Variable", sans-serif;
+}
+
 .article2 .position1 .mobile {
   width: 10.875rem;
   font-size: 0.625rem;
@@ -145,6 +149,11 @@ header .pp {
   background-color: var(--main-color);
   margin-top: -1.45rem;
   padding: 6rem 4.5rem;
+}
+
+.article2 .project img {
+  width: 100%;
+  vertical-align: bottom;
 }
 
 .article2 .project a {
@@ -179,6 +188,10 @@ header .pp {
 /************ article2 design1 *************/
 .article2 .project .design1 .award {
   opacity: 60%;
+}
+
+.article2 .project .design1 .explain img {
+  width: 20%;
 }
 
 .article2 .project .design1 .DIY_silicon {
@@ -221,10 +234,6 @@ header .pp {
 }
 
 /************ article2 design2 *************/
-.article2 .project .design2 .No0 {
-  width: 100%;
-  vertical-align: bottom;
-}
 
 .article2 .project .design2 .explain {
   height: 100%;
@@ -255,10 +264,6 @@ header .pp {
 }
 
 /************ article2 design3 *************/
-.article2 .project .design3 .tray {
-  width: 100%;
-  vertical-align: bottom;
-}
 
 .article2 .project .design3 .explain {
   height: 100%;
@@ -287,6 +292,10 @@ header .pp {
 /************ article2 design4 *************/
 .article2 .project .design4 .award {
   opacity: 60%;
+}
+
+.article2 .project .design4 .explain img {
+  width: 20%;
 }
 
 .article2 .project .design4 .UV {

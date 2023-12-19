@@ -16,10 +16,6 @@
   gap: 4rem;
 }
 
-.article2 .project a:hover {
-  text-decoration: none;
-}
-
 .article2 .project .design1:hover .VeiwMore,
 .article2 .project .design2:hover .VeiwMore,
 .article2 .project .design3:hover .VeiwMore,
@@ -35,8 +31,22 @@
 }
 
 /************* .article2 .project .design1 *************/
+.article2 .project .design1 {
+  position: relative;
+  z-index: 9;
+}
+
 .article2 .project .design1 .explain {
   height: calc(190px + 6rem);
+}
+
+.article2 .project .design1 .explain img {
+  content: url(./images/award.png);
+  width: 50%;
+  position: absolute;
+  top: -8%;
+  left: -27%;
+  z-index: -9;
 }
 
 /************* .article2 .project .design2 *************/
@@ -62,8 +72,27 @@
 }
 
 /************* .article2 .project .design4 *************/
+.article2 .project .design4 {
+  position: relative;
+  z-index: 9;
+}
+
 .article2 .project .design4 .explain {
   height: calc(160px + 6rem);
+}
+
+.article2 .project .design4 .explain img {
+  content: url(./images/award.png);
+  width: 50%;
+  position: absolute;
+  top: -9.5%;
+  right: -23%;
+  z-index: -9;
+}
+
+/************* .article2 .project .design5 *************/
+.article2 .project .design5 .explain {
+  height: calc(58px + 6rem);
 }
 
 /************* .article2 .project .design6 *************/
@@ -74,6 +103,21 @@
 /************* .article2 .project .design7 *************/
 .article2 .project .design7 .explain {
   height: calc(213px + 6rem);
+}
+
+/************* .article2 .project .design8 *************/
+.article2 .project .design8 .explain {
+  height: calc(30px + 6rem);
+}
+
+/************* .article2 .project .design9 *************/
+.article2 .project .design9 .explain {
+  height: calc(40px + 6rem);
+}
+
+/************* .article2 .project .design10 *************/
+.article2 .project .design10 .explain {
+  height: calc(50px + 6rem);
 }
 
 .article2 .project .design7 .explain h5 {
